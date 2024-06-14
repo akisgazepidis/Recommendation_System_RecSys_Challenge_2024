@@ -3,7 +3,7 @@ name: Echo Message
 on:
   push:
     branches:
-      - main
+      - feature/add-echo-message-workflow
 
 jobs:
   echo-message:
